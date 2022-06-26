@@ -13,19 +13,24 @@ url = "/"
 weight = 1
 
 [[menu.main]]
-name = "Writings"
+name = "Essays"
 url = "/posts"
 weight = 2
 
 [[menu.main]]
-name = "Tags"
-url = "/tags"
+name = "Film Talk"
+url = "/filmtalk"
 weight = 3
+
+[[menu.main]]
+name = "Tech Talk"
+url = "/techtalk"
+weight = 4
 
 [[menu.main]]
 name = "About"
 url = "/about"
-weight = 4
+weight = 5
 
 [markup]
   [markup.tableOfContents]
