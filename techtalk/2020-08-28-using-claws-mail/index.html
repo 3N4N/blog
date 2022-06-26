@@ -1,0 +1,213 @@
+<!doctype html><html lang=en-us>
+<head>
+<link rel=preload href=/enansblog/lib/font-awesome/webfonts/fa-brands-400.woff2 as=font type=font/woff2 crossorigin=anonymous>
+<link rel=preload href=/enansblog/lib/font-awesome/webfonts/fa-regular-400.woff2 as=font type=font/woff2 crossorigin=anonymous>
+<link rel=preload href=/enansblog/lib/font-awesome/webfonts/fa-solid-900.woff2 as=font type=font/woff2 crossorigin=anonymous>
+<link rel=preload href=/enansblog/lib/JetBrainsMono/web/woff2/JetBrainsMono-Regular.woff2 as=font type=font/woff2 crossorigin=anonymous>
+<script type=text/javascript src=https://latest.cactus.chat/cactus.js></script>
+<link rel=stylesheet href=https://latest.cactus.chat/style.css type=text/css>
+<meta charset=utf-8>
+<meta http-equiv=x-ua-compatible content="IE=edge">
+<title> Using Claws Mail Client | Enan's Blog</title>
+<link rel=canonical href=https://3n4n.github.io/enansblog/techtalk/2020-08-28-using-claws-mail/>
+<meta name=description content="Hi! I'm Enan Ajmain. Welcome to my blog. I discuss films and books and occasionally techy stuff. Also, I'm a vim user.">
+<meta name=viewport content="width=device-width,initial-scale=1">
+<meta name=robots content="all,follow">
+<meta name=googlebot content="index,follow,snippet,archive">
+<meta property="og:title" content="Using Claws Mail Client">
+<meta property="og:description" content="Contents  Why Install Add Account Compose Email FAQ  Why? Why use an email-client? I do not know. Except that using an external email-client seems like a grown-up thing to do, like owning a wallet.
+Why use Claws Mail? I guess because it uses less resource than others. But, having a modern computer, that sounds more like an excuse than a valid reason.
+Basically, the reason will depend on the user.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://3n4n.github.io/enansblog/techtalk/2020-08-28-using-claws-mail/"><meta property="article:section" content="techtalk">
+<meta property="article:published_time" content="2020-08-28T00:00:00+00:00">
+<meta property="article:modified_time" content="2020-08-28T00:00:00+00:00">
+<meta name=twitter:card content="summary">
+<meta name=twitter:title content="Using Claws Mail Client">
+<meta name=twitter:description content="Contents  Why Install Add Account Compose Email FAQ  Why? Why use an email-client? I do not know. Except that using an external email-client seems like a grown-up thing to do, like owning a wallet.
+Why use Claws Mail? I guess because it uses less resource than others. But, having a modern computer, that sounds more like an excuse than a valid reason.
+Basically, the reason will depend on the user.">
+<link rel=stylesheet href=https://3n4n.github.io/enansblog/css/styles.94f653e9e151e28067a7c5dbbc4600cbd5a3c721e79faaf971e523c40f3b249b8e4f20bb57810dfffa8d559ca5c140fd56eb4cd9c0853113ad08e66afdb08bdd.css integrity="sha512-lPZT6eFR4oBnp8XbvEYAy9WjxyHnn6r5ceUjxA87JJuOTyC7V4EN//qNVZylwUD9VutM2cCFMROtCOZq/bCL3Q=="><!--[if lt IE 9]><script src=https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js></script>
+<script src=https://oss.maxcdn.com/respond/1.4.2/respond.min.js></script><![endif]-->
+<link rel=icon type=image/png href=https://3n4n.github.io/enansblog/images/favicon.ico>
+</head>
+<body class="max-width mx-auto px3 ltr">
+<div class="content index py4">
+<header id=header>
+<a href=https://3n4n.github.io/enansblog/>
+<div id=logo style=background-image:url(https://3n4n.github.io/enansblog/images/logo.png)></div>
+<div id=title>
+<h1>Enan's Blog</h1>
+</div>
+</a>
+<div id=nav>
+<ul>
+<li class=icon>
+<a href=# aria-label=Menu><i class="fas fa-bars fa-2x" aria-hidden=true></i></a>
+</li>
+<li><a href=/enansblog/>Home</a></li>
+<li><a href=/enansblog/posts>Essays</a></li>
+<li><a href=/enansblog/filmtalk>Film Talk</a></li>
+<li><a href=/enansblog/techtalk>Tech Talk</a></li>
+<li><a href=/enansblog/about>About</a></li>
+</ul>
+</div>
+</header>
+<article class=post itemscope itemtype=http://schema.org/BlogPosting>
+<div class=content itemprop=articleBody>
+<p><img src=/2020-08-28/0.png alt="Claws Mail"></p>
+<h2 id=contents>Contents</h2>
+<ul>
+<li><a href=#why>Why</a></li>
+<li><a href=#install>Install</a></li>
+<li><a href=#add-account>Add Account</a></li>
+<li><a href=#compose-email>Compose Email</a></li>
+<li><a href=#faq>FAQ</a></li>
+</ul>
+<h2 id=why>Why?</h2>
+<p>Why use an email-client? I do not know. Except that using an external
+email-client seems like a grown-up thing to do, like owning a wallet.</p>
+<p>Why use Claws Mail? I guess because it uses less resource than others.
+But, having a modern computer, that sounds more like an excuse than a
+valid reason.</p>
+<p>Basically, the reason will depend on the user. I will not try and
+convince you to use Claws Mail. But if you do decide to use it, this
+blogpost should be a good enough tutorial to begin.</p>
+<h2 id=install>Install</h2>
+<p>Use your preferred method of installation. The client should be
+available in your package-manager&rsquo;s respository. If not, you can
+always manually build and install from the <a href=https://git.claws-mail.org/>git repository</a>.</p>
+<h2 id=add-account>Add Account</h2>
+<p>Go to <code>Configuration > Create new account</code> and you should be presented
+with the following window.</p>
+<p><img src=/2020-08-28/1.png alt="Create new account"></p>
+<ol>
+<li>
+<p><strong>Basic</strong>:</p>
+<p>Enter your name, email address, and name of the account. Check the
+<code>Set as default</code> option if it is to be your default account.</p>
+<p>Choose your preferred protocol. It should be either POP or IMAP.
+If you do not know what these are, head on to <a href=https://www.name.com/support/articles/205935497-Understanding-the-difference-between-POP-and-IMAP>this website</a>.</p>
+<p>Click the Auto-configure button. If your email address is one of
+the popular ones, e.g. Gmail or Yahoo, the servers and user-id
+should be filled up automatically now. If you get an error, I am
+afraid you would have to look through the manual of your email
+provider and figure out those information manually.</p>
+<p>If you decide not to put in the password of your email account
+because of worry over security, you may skip it. Then you would
+have to enter it every time you reset the cache.</p>
+</li>
+<li>
+<p><strong>Receive</strong>:</p>
+<p>Head on over to the Receive tab. Check <code>'Get Mail' checks for new messages on this account</code>.</p>
+</li>
+<li>
+<p><strong>Send</strong>:</p>
+<p>Go over to the Send tab. If your user-id and password for sending
+emails are different from those for receiving, then fill those
+options. Otherwise, leave everything as is.</p>
+</li>
+<li>
+<p><strong>Advanced</strong>:</p>
+<p>Move over to the Advanced tab. The ports for SMTP and IMAP should
+be filled up. If not, google for the ports specific to your email
+provider. (For Gmail, you can find the information <a href="https://support.google.com/mail/answer/7126229?hl=en">here</a>.)</p>
+</li>
+<li>
+<p><strong>Others</strong>:</p>
+<p>The options for all the other tabs are self-explanatory, and
+varies depending on the demand of the user. If you are a regular
+email user, you should not have to change any of them. And if you
+are an advanced user, you already know what you would have to
+change.</p>
+</li>
+</ol>
+<p>Now, click on the OK button. You should see the following window.</p>
+<p><img src=/2020-08-28/2.png alt="Claws Mail"></p>
+<p>There is a problem, though: it shows your account has zero emails.
+That is because you have not pulled your emails down. To do that,
+right click on the account, and select <code>Rebuild folder tree</code>.</p>
+<p>There! You should see your emails now.</p>
+<p><img src=/2020-08-28/3.png alt="Claws Mail"></p>
+<p>You might see there are duplicate folders for drafts and trash and
+sent mails. It is because Claws Mail automatically creates those
+folders when creating an account, while Gmail already has those
+folders. To get around it, you need to right click each of those three
+folders under <code>[Gmail]</code> and click <code>Properties</code> and change the folder
+type to that of the corresponding folder. For example: for Trash
+folder, select folder-type Trash; for Drafts folder, select Drafts;
+for Sent Mail folder, select Outbox. Then delete the three duplicate
+folders outside the <code>[Gmail]</code> category. That&rsquo;s it! You should now have
+a clean folder structure.</p>
+<p>You can add as many accounts you want. I use one for my personal use
+and one for my school. My client looks like the one below.</p>
+<p><img src=/2020-08-28/4.png alt="Claws Mail"></p>
+<h2 id=compose-email>Compose Email</h2>
+<p>To write an email, click the Compose button. The following window
+should pop up.</p>
+<p><img src=/2020-08-28/5.png alt=Compose></p>
+<ol>
+<li>
+<p><strong>Header</strong>:</p>
+<p>Fill the sender and receiver options, and write your email. You
+can also add Cc or Bcc.</p>
+<p>When you enter the email address for the receiver, a new option
+will pop for entering another email address. If you want to send
+the email to multiple people, you can do it this way. Otherwise,
+leave the option blank.</p>
+<p>If you have email addresses saved in your address book, you can
+autocomplete the address by tapping tab on your keyboard. The way
+to use the address book will be discussed in a later section.</p>
+</li>
+<li>
+<p><strong>Attachment</strong>:</p>
+<p>To attach a file, click the Attach button and select the files.
+You can edit or remove it in the Attachment tab.</p>
+</li>
+<li>
+<p><strong>Others</strong>:</p>
+<p>In the Others tab, check the option for saving the message to your
+outbox folder, which for Gmail would be the Sent Mail folder.</p>
+</li>
+</ol>
+<p>Now, click the Send button to send the email, or the Send later button
+to queue the email, or the Draft button to save the email in the
+Drafts folder. The compose window should close automatically once the
+email is sent, or queued, or saved.</p>
+<p> </p>
+<h2 id=faq>FAQ</h2>
+<h3 id=cannot-use-my-gmail-account>Cannot use my Gmail account</h3>
+<p>You probably need to enable less secure apps for your Google account.
+Check out <a href=https://hotter.io/docs/email-accounts/secure-app-gmail/>this site</a> to learn how to do that.</p>
+<h3 id=incomplete-emails-saved-in-gmail-while-composing>Incomplete emails saved in Gmail while composing</h3>
+<p>A default setting in Claws Mail saves emails to the drafts folder
+every few characters while composing. Gmail uses a single folder for
+storing all its emails, the one called All Mail. And the Conversation
+View in Gmail makes the drafts visible.</p>
+<p>To fix this, all you need to do is open <code>Configuration > Preferences</code>,
+and go to the Writing tab under Compose category, and uncheck the
+option for automatically saving messages to Drafts every few seconds.</p>
+</div>
+</article>
+<footer id=footer>
+<div class=footer-left>
+Copyright &copy; 2022 Enan's Blog
+</div>
+<div class=footer-right>
+<nav>
+<ul>
+<li><a href=/enansblog/>Home</a></li>
+<li><a href=/enansblog/posts>Essays</a></li>
+<li><a href=/enansblog/filmtalk>Film Talk</a></li>
+<li><a href=/enansblog/techtalk>Tech Talk</a></li>
+<li><a href=/enansblog/about>About</a></li>
+</ul>
+</nav>
+</div>
+</footer>
+</div>
+</body>
+<link rel=stylesheet href=/enansblog/lib/font-awesome/css/all.min.css>
+<script src=/enansblog/lib/jquery/jquery.min.js></script>
+<script src=/enansblog/js/main.js></script>
+</html>
