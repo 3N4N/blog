@@ -30,11 +30,6 @@ name = "Tech Talk"
 url = "/techtalk"
 weight = 4
 
-[[menu.main]]
-name = "About"
-url = "/about"
-weight = 5
-
 [markup]
   [markup.tableOfContents]
     endLevel = 4
@@ -59,7 +54,13 @@ weight = 5
   showAllPostsArchive = false # default
 
   # Home page settings
-  description = "Hi! I'm Enan Ajmain. Welcome to my blog. I discuss films and books and occasionally techy stuff. Also, I'm a vim user."
+  description = """Enan Ajmain is a CSE graduate from Bangladesh. He identifies as a vim \
+                 user and will let you know that every chance he gets. Other than \
+                 dipping his toes into open-source software communities every now and then, \
+                 Enan doesn't do much within the tech domain. His unguarded passion lies \
+                 in film and literature. Give him some space and some books to dive into \
+                 and he will be forever grateful."""
+
   mainSection = "posts" # your main section
   showAllPostsOnHomePage = false # default
   postsOnHomePage = 5 # this option will be ignored if showAllPostsOnHomePage is set to true
@@ -71,8 +72,8 @@ weight = 5
   dateFormat = "2006-01-02" # default
 
   # Post page settings
-  show_updated = true # default
-  showReadTime = true # default
+  show_updated = true  # default
+  showReadTime = false # default
 
   [params.comments]
     enabled = true # default
