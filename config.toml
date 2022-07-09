@@ -2,6 +2,7 @@ baseURL = 'https://3n4n.github.io/enansblog/'
 languageCode = 'en-us'
 title = "Enan's Blog"
 theme = 'cactus'
+canonifyURLs = true
 
 [permalinks]
   essays = '/:year/:month/:title/'
