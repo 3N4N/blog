@@ -3,7 +3,7 @@ title: "Using Claws Mail Client"
 date: 2020-08-28
 ---
 
-![Claws Mail](/2020-08-28/0.png)
+![Claws Mail](/images/2020-08-28/0.png)
 
 ## Contents
 
@@ -37,7 +37,7 @@ always manually build and install from the [git repository][1].
 Go to `Configuration > Create new account` and you should be presented
 with the following window.
 
-![Create new account](/2020-08-28/1.png)
+![Create new account](/images/2020-08-28/1.png)
 
 1. **Basic**:
 
@@ -84,7 +84,7 @@ with the following window.
 
 Now, click on the OK button. You should see the following window.
 
-![Claws Mail](/2020-08-28/2.png)
+![Claws Mail](/images/2020-08-28/2.png)
 
 There is a problem, though: it shows your account has zero emails.
 That is because you have not pulled your emails down. To do that,
@@ -92,7 +92,7 @@ right click on the account, and select `Rebuild folder tree`.
 
 There! You should see your emails now.
 
-![Claws Mail](/2020-08-28/3.png)
+![Claws Mail](/images/2020-08-28/3.png)
 
 You might see there are duplicate folders for drafts and trash and
 sent mails. It is because Claws Mail automatically creates those
@@ -108,14 +108,14 @@ a clean folder structure.
 You can add as many accounts you want. I use one for my personal use
 and one for my school. My client looks like the one below.
 
-![Claws Mail](/2020-08-28/4.png)
+![Claws Mail](/images/2020-08-28/4.png)
 
 ## Compose Email
 
 To write an email, click the Compose button. The following window
 should pop up.
 
-![Compose](/2020-08-28/5.png)
+![Compose](/images/2020-08-28/5.png)
 
 1. **Header**:
 
