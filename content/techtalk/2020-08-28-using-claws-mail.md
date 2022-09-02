@@ -39,7 +39,7 @@ with the following window.
 
 ![Create new account](/images/2020-08-28/1.png)
 
-1. **Basic**:
+1. __Basic__:
 
     Enter your name, email address, and name of the account. Check the
     `Set as default` option if it is to be your default account.
@@ -57,24 +57,24 @@ with the following window.
     because of worry over security, you may skip it. Then you would
     have to enter it every time you reset the cache.
 
-2. **Receive**:
+2. __Receive__:
 
     Head on over to the Receive tab. Check `'Get Mail' checks for new
     messages on this account`.
 
-3. **Send**:
+3. __Send__:
 
     Go over to the Send tab. If your user-id and password for sending
     emails are different from those for receiving, then fill those
     options. Otherwise, leave everything as is.
 
-4. **Advanced**:
+4. __Advanced__:
 
     Move over to the Advanced tab. The ports for SMTP and IMAP should
     be filled up. If not, google for the ports specific to your email
     provider. (For Gmail, you can find the information [here][3].)
 
-5. **Others**:
+5. __Others__:
 
     The options for all the other tabs are self-explanatory, and
     varies depending on the demand of the user. If you are a regular
@@ -117,7 +117,7 @@ should pop up.
 
 ![Compose](/images/2020-08-28/5.png)
 
-1. **Header**:
+1. __Header__:
 
     Fill the sender and receiver options, and write your email. You
     can also add Cc or Bcc.
@@ -131,12 +131,12 @@ should pop up.
     autocomplete the address by tapping tab on your keyboard. The way
     to use the address book will be discussed in a later section.
 
-1. **Attachment**:
+1. __Attachment__:
 
     To attach a file, click the Attach button and select the files.
     You can edit or remove it in the Attachment tab.
 
-1. **Others**:
+1. __Others__:
 
     In the Others tab, check the option for saving the message to your
     outbox folder, which for Gmail would be the Sent Mail folder.
@@ -154,6 +154,11 @@ email is sent, or queued, or saved.
 
 You probably need to enable less secure apps for your Google account.
 Check out [this site][4] to learn how to do that.
+
+__Update__: Google has stopped supporting "Less Secure Apps" (which is
+an euphemism for apps that don't support OAUTH2). You need to use an
+[App Password][5] instead. Note that Google requires you to enable
+2-factor authentication to use app passwords.
 
 ### Incomplete emails saved in Gmail while composing
 
@@ -175,3 +180,5 @@ option for automatically saving messages to Drafts every few seconds.
 [3]: https://support.google.com/mail/answer/7126229?hl=en
 
 [4]: https://hotter.io/docs/email-accounts/secure-app-gmail/
+
+[5]: https://support.google.com/accounts/answer/185833?authuser=0
