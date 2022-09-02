@@ -5,19 +5,19 @@ date: 2020-04-04
 
 ## Genre Snobbery Exists
 
-Ever heard of genre snobbery? It means laughing at a genre because
-some people decided it is beneath the taste of sophisticated people.
-Critiques and writers alike from literary fiction side have been
-turning up their noses at genre fiction since the beginning of time.
-These "unsophisticated" genres include Fantasy, Sci-Fi and Horror.
+Ever heard of genre snobbery? It means regarding a genre as inferior
+because some people decided it is beneath the taste of sophisticated
+people. Critics and writers alike from literary fiction side have been
+turning their noses up at genre fiction since the dawn of literature.
+These "unsophisticated" genres include Fantasy, Sci-Fi, and Horror.
 
 ## Sci-Fi and Fantasy are Awesome
 
 Thanks to celebrated writers like Ray Bradbury and H.G. Wells, Sci-Fi
-genre has garnered much deserved attention in literary societies. Due
-to unprecedented success of movies like the *Lord of the Rings*
-trilogy and *Harry Potter* series, Fantasy genre, too, now receives
-the appreciation it deserves.
+has garnered much deserved attention in literary societies. Due to
+unprecedented success of movies like the *Lord of the Rings* trilogy
+and *Harry Potter* series, Fantasy genre, too, now receives the
+appreciation it deserves.
 
 ## Horror is Still Niche
 
@@ -43,26 +43,26 @@ are just that: gratuitous violence. But that is like saying all
 fantasy stories are about Elves, Dwarves and a Dark One. Yes, due to
 the success of *Lord of the Rings*, many authors have written
 uncountable stories uncannily similar to it. Most of them are
-objectively bad. But Game of Thrones has taught people what Fantasy
-can offer: everything. How? Because, Fantasy is not a boundary, it is
-just a setting.
+terrible. But Game of Thrones has taught people what Fantasy can
+offer: everything. Because, Fantasy is not a boundary; it is just a
+setting.
 
 ## What Makes Good Horror
 
-Let's talk about the elements of good horror stories. Cause there are
-some bad ones. Neither the fans nor the haters of the genre would
-downplay their disdain for jump scares. Jump scare is a pathetic
+Let's talk about the elements of good horror stories. Cause there
+_are_ some bad ones. Neither the fans nor the haters of the genre
+would downplay their disdain for jump scares. Jump scare is a pathetic
 device for writers who does not have more effective tools in his
 repertoire.
 
-So, what makes good horrors?
+So, what makes a good horror?
 
 1. **Believable plot.** It's not like you cannot have any fantastical
    element in the story. You can. You just need to do the
    worldbuilding and weave the story around the fantastical elements.
 
 2. **Sympathetic characters.** Good horror stories, like any other
-   stories (except maybe idealistic Sci-Fi), are about people. If the
+   stories (except maybe golden-age Sci-Fi), are about people. If the
    reader or the viewer does not sympathize with the characters, they
    are going to feel disconnected.
 
@@ -74,16 +74,16 @@ So, what makes good horrors?
 ## Show, Not Tell
 
 Talking and reading about ideas feels like academic work. Boring and
-draining. So, examples from a few good horror stories follow.
+draining. So examples from a few good horror stories follow.
 
 ### The Shining (Stephen King novel)
 
 A father has to stay as a maintainer in a haunted hotel, which has
 been emptied out for the winter because the area it is situated at is
-cut-off from the rest of the world due to heavy snowfall, with his
-wife and six-year-old son. On surface level, it would appear that this
-is exactly the random haunted house narrative device I said was bad.
-But this particular story has a lot more to offer than others.
+cut-off from the rest of the world after heavy snowfall, with his wife
+and six-year-old son. On surface level, it would appear that this is
+exactly the random haunted house narrative device I said was bad. But
+this particular story has a lot more to offer than others.
 
 The dad was an alcoholic. He had had many problems earlier in his life
 because of heavy drinking, from beating up his students in drunken
@@ -94,15 +94,15 @@ had at last been able to keep the demons of alcohol at bay.
 Until the Overlook Hotel possessed him and tried to murder his family.
 
 You might think, "How is this better than any other haunted house
-story? It's just more of the same old thing." Let me tell you, it's
-not. As stated before, the dad was an alcoholic, and, although he had
-been sober for a respectable amount of time, the narrative of the
-novel pointedly shows how alluring the beckon of a wine bottle is to
-him. He has done terrible things in drunken stupor before. Both his
-wife and son know he can become violent if he starts drinking again.
-He, too, knows that. But he starts drinking anyway when the pressure
-of isolation breaks him and the hotel manipulates his perception of
-his wife, portraying her in a villainous frame.
+story? It's just more of the same old thing." But it's not. Remember,
+the dad was an alcoholic, and although he had been sober for a
+commendable period, the narrative of the novel pointedly shows how
+alluring for him the beckon of a wine bottle is. He has done terrible
+things while inebriated. Both his wife and son know he can become
+violent if he starts drinking again. He, too, knows that. But he
+starts drinking anyway when the pressure of isolation breaks him and
+the hotel manipulates his perception of his wife, portraying her in a
+villainous frame.
 
 The haunted hotel just provides the writer with a setting, a leeway,
 for exploring the cause and effect of alcoholism. Yes, a sobered up
@@ -129,22 +129,21 @@ explore the implications of invisibility? It's not like someone has
 invented the Invisibility Cloak." Well, guess what? Somebody has. It's
 called the Internet.
 
-Anyway, the allegory of invisibility to anonymity is from the original
-novel. It was a very good horror novel in its own right, but this
-section is not about that particular novel, so let's get back to the
-film.
+The allegory of invisibility to anonymity is from the original novel.
+It was a good horror novel in its own right, but this section is not
+about that particular novel, so let's get back to the film.
 
-The movie is about a woman escaping from an abusive relation. Her
+The movie is about a woman escaping from an abusive relationship. Her
 partner at first restricted her connection to the outside world, then
 her movement around and outside the house, and gradually even her
-opinions and thoughts. So, she flees from what can essentially be
-called captivity. But, as she struggles to get back to normal
-lifestyle following the trauma of the abusive relation, her partner
-comes back and haunts her, now completely invisible.
+opinions and thoughts. So she flees from what can essentially be
+called captivity. But as she struggles to get back to normal lifestyle
+following the trauma of the abusive relationship, her partner comes
+back and haunts her, now completely invisible.
 
 Any victim of abuse goes through a period of trauma. Some of them
-can't overcome it completely at all. During this period, she (I'll use
-feminine pronoun for the character of victim here because of the
+cannot overcome it completely at all. During this period, she (I'll
+use feminine pronoun for the victim character here because of the
 characterization in the movie, and also because I did the inverse in
 the previous section) has to look behind her shoulder all the time to
 convince herself that her abuser is not back to hurt her again. Abuse
@@ -153,41 +152,39 @@ self-confidence of the victim.
 
 This movie explores the idea of always being scared of more abuse
 because of past abuse in a clever way. In the movie the abuser
-actually does come back to hurt her, which won't happen in real life
-(hopefully), or at least, won't happen the way it did in the movie.
-But it provides a picture to understand the harrowing experience the
-victims of abuse go through. That is good horror.
+actually does come back to hurt her, which won't happen in real life,
+or at least, won't happen the way it did in the movie. But it provides
+a picture to understand the harrowing experience the victims of abuse
+go through. That is good horror.
 
 ### The Haunting of Hill House (Mike Flanagan TV series)
 
-This story actually blew my mind away. It showed me how you can play
-with familiar story elements in totally unfamiliar ways to create
-utter and absolute horror. It's a masterclass. The ending was a little
-soppy for my taste. But it was sweet too, which is unusual in horror
-stories. So, that was not a bad idea. Anyway, this is not a review of
-the TV series. Let's get back to the horror elements.
+This story blew me away. It showed me how you can play with familiar
+story elements in totally unfamiliar ways to create absolute terror.
+It's a masterclass. The ending was a little soppy for my taste, but it
+was sweet too, which is unusual in horror stories. So that was not a
+bad idea.
 
 A family lives in a haunted house in order to renovate it before
 selling it. But the mother develops a terrible case of being overly
 protective of her children and decides to take radical steps to ensure
-their absolute safety.
+their safety.
 
-The narration progresses along two different timelines at the same
-time. One shows what happened at the haunted house. The other shows
-what happened after their stay at the haunted house: the aftereffects
-and consequences.
+The narration progresses along two different timelines. One shows what
+happened at the haunted house. The other shows what happened after
+their stay at the haunted house: the aftereffects and consequences.
 
 The children, now all grown up, have problems revolving around their
 experience at the Hill House. Their relationship with the father has
 deteriorated because he has not told the children what actually
-happened at the Hill House on the night of haunting, and they think
-their father left their mother to die in a deserted place, alone and
+happened at the house on the night of haunting, and they think their
+father left their mother to die in a deserted place, alone and
 helpless. The viewers get to know the real story as the kids get to
 know them.
 
 The series explores what effects disbelief and distrust can have in a
-family. It shows the members of a family uniting to resolve all their
-conflict together, helping each other. What it definitely was not is a
+family. It shows the members of a family uniting to resolve their
+conflict together, helping each other. What it definitely is not is a
 cheap haunted house story.
 
 ## Outlining vs Discovery Writing
@@ -197,17 +194,17 @@ them just start writing, trusting the story to advance itself. Most of
 them do a little bit of both.
 
 Do you need to think about the implications of your story before you
-finish it? No. But you should ponder about the humane elements after
+finish it? No. But you should ponder about the human elements after
 you have finished writing it. Your first draft won't be perfect. It
 does not need to be; nobody is going to see it. What matters is the
 final piece.
 
 In an interview, the writer-director of Get Out, Jordan Peele,
 discusses the idea behind the Sunken Place. He explains that the fear
-of being trapped in in his own body and not being in control of it has
-been haunting him from early childhood. He just brought that fear onto
-the page. But when he read it afterwards, he understood the connection
-between the Sunken Place and the minorities feeling powerless and
+of being trapped in his own body and not being in control of it has
+haunted him since early childhood. He just brought that fear onto the
+page. But when he read it afterwards, he understood the connection
+between the Sunken Place and minorities feeling powerless and
 voiceless. "I started crying," he says to the interviewer.
 
 ## Endings are Hard
