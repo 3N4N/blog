@@ -82,8 +82,8 @@ use it without the passphrase.</p>
 connection from an authenticating agent, e.g., <code>ssh-agent</code>. It will use
 the key-pair stored in Bob’s local machine (as opposed to the shared
 remote machine) for authentication. So Bob will not have to generate a
-key-pair in the remote machine. Bob just needs to add <code>-A</code> flag to his
-ssh command.</p>
+key-pair in the remote machine. He just needs to add <code>-A</code> flag to the
+ssh command below and the key-pair in his local machine will be used.</p>
 <div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">1</span>ssh -A bob@remote-machine
 </code></pre></div><p>Be warned, though. The Linux manual (<code>man 1 ssh</code>) has this is to say:</p>
 <blockquote>
