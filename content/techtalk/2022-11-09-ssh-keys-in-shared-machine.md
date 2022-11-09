@@ -19,7 +19,7 @@ all services Bob has access to.
 
 This problem can be circumvented by encrypting the private key:
 
-```bash
+```
 # replace `id_ed25519` with your private key file
 ssh-keygen -p -f ~/.ssh/id_ed25519
 ```
@@ -39,7 +39,7 @@ remote machine) for authentication. So Bob will not have to generate a
 key-pair in the remote machine. He just needs to add `-A` flag to the
 ssh command below and the key-pair in his local machine will be used.
 
-```bash
+```
 ssh -A bob@remote-machine
 ```
 
@@ -58,7 +58,7 @@ Be warned, though. The Linux manual (`man 1 ssh`) has this is to say:
 
 Bob can test if he can authenticate properly by using the command below.
 
-```bash
+```
 ssh -T git@github.com
 # Hi Bob! You've successfully authenticated,
 # but GitHub does not provide shell access.
