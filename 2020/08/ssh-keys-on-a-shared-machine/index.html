@@ -1,0 +1,126 @@
+<!doctype html><html lang=en-us>
+<head>
+<link rel=preload href=https://3n4n.github.io/blog/lib/font-awesome/webfonts/fa-brands-400.woff2 as=font type=font/woff2 crossorigin=anonymous>
+<link rel=preload href=https://3n4n.github.io/blog/lib/font-awesome/webfonts/fa-regular-400.woff2 as=font type=font/woff2 crossorigin=anonymous>
+<link rel=preload href=https://3n4n.github.io/blog/lib/font-awesome/webfonts/fa-solid-900.woff2 as=font type=font/woff2 crossorigin=anonymous>
+<link rel=preload href=https://3n4n.github.io/blog/lib/JetBrainsMono/web/woff2/JetBrainsMono-Regular.woff2 as=font type=font/woff2 crossorigin=anonymous>
+<script type=text/javascript src=https://latest.cactus.chat/cactus.js></script>
+<link rel=stylesheet href=https://latest.cactus.chat/style.css type=text/css>
+<meta charset=utf-8>
+<meta http-equiv=x-ua-compatible content="IE=edge">
+<title> SSH Keys On a Shared Machine | Enan's Blog</title>
+<link rel=canonical href=https://3n4n.github.io/blog/2020/08/ssh-keys-on-a-shared-machine/>
+<meta name=description content="Enan Ajmain is a CSE graduate from Bangladesh. He identifies as a vim user and will let you know that every chance he gets. Other than dipping his toes into open-source software communities every now and then, Enan doesn't do much within the tech domain. His unguarded passion lies in film and literature. Give him some space and some books to dive into and he will be forever grateful.">
+<meta name=viewport content="width=device-width,initial-scale=1">
+<meta name=robots content="all,follow">
+<meta name=googlebot content="index,follow,snippet,archive">
+<meta property="og:title" content="SSH Keys On a Shared Machine">
+<meta property="og:description" content="Services such as GitHub often requires an ssh connection. The user, say Bob, has to generate a key-pair to authenticate himself when communicating with the service. The generated key-pair exists in Bob’s machine in plaintext format.
+The issue arises when Bob’s machine is shared among multiple users, some or all of whom has root access: they can access Bob’s key-pair, which will enable them to identify themselves as Bob and give them access to all services Bob has access to.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://3n4n.github.io/blog/2020/08/ssh-keys-on-a-shared-machine/"><meta property="article:section" content="techtalk">
+<meta property="article:published_time" content="2020-08-28T00:00:00+00:00">
+<meta property="article:modified_time" content="2020-08-28T00:00:00+00:00">
+<meta name=twitter:card content="summary">
+<meta name=twitter:title content="SSH Keys On a Shared Machine">
+<meta name=twitter:description content="Services such as GitHub often requires an ssh connection. The user, say Bob, has to generate a key-pair to authenticate himself when communicating with the service. The generated key-pair exists in Bob’s machine in plaintext format.
+The issue arises when Bob’s machine is shared among multiple users, some or all of whom has root access: they can access Bob’s key-pair, which will enable them to identify themselves as Bob and give them access to all services Bob has access to.">
+<link rel=stylesheet href=https://3n4n.github.io/blog/css/styles.e7e387c65830ac65299df5476f3bfd14df20c4a1756652b2ff96da0b50e1c816414629fea619150318f60f6f48a8c04b7999361dcaee1e81e762ead87ab4568b.css integrity="sha512-5+OHxlgwrGUpnfVHbzv9FN8gxKF1ZlKy/5baC1DhyBZBRin+phkVAxj2D29IqMBLeZk2HcruHoHnYurYerRWiw=="><!--[if lt IE 9]><script src=https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js></script>
+<script src=https://oss.maxcdn.com/respond/1.4.2/respond.min.js></script><![endif]-->
+<link rel=icon type=image/png href=https://3n4n.github.io/blog/images/favicon.ico>
+</head>
+<body class="max-width mx-auto px3 ltr">
+<div class="content index py4">
+<header id=header>
+<a href=https://3n4n.github.io/blog/>
+<div id=title>
+<h1>Enan's Blog</h1>
+</div>
+</a>
+<div id=nav>
+<ul>
+<li class=icon>
+<a href=# aria-label=Menu><i class="fas fa-bars fa-2x" aria-hidden=true></i></a>
+</li>
+<li><a href=https://3n4n.github.io/blog/>Home</a></li>
+<li><a href=https://3n4n.github.io/blog/essays>Essays</a></li>
+<li><a href=https://3n4n.github.io/blog/filmtalk>Film Talk</a></li>
+<li><a href=https://3n4n.github.io/blog/techtalk>Tech Talk</a></li>
+</ul>
+</div>
+</header>
+<article class=post itemscope itemtype=http://schema.org/BlogPosting>
+<header>
+<h1 class=posttitle itemprop="name headline">
+SSH Keys On a Shared Machine
+</h1>
+<div class=meta>
+<div class=postdate>
+<time datetime="2020-08-28 00:00:00 +0000 UTC" itemprop=datePublished>2020-08-28</time>
+</div>
+</div>
+</header>
+<div class=content itemprop=articleBody>
+<p>Services such as GitHub often requires an ssh connection. The user, say
+Bob, has to <a href=https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent>generate a key-pair</a> to authenticate himself when
+communicating with the service. The generated key-pair exists in Bob’s
+machine in plaintext format.</p>
+<p>The issue arises when Bob’s machine is shared among multiple users, some
+or all of whom has root access: they can access Bob’s key-pair, which
+will enable them to identify themselves as Bob and give them access to
+all services Bob has access to.</p>
+<h2 id=encrypting-private-key>Encrypting Private Key</h2>
+<p>This problem can be circumvented by encrypting the private key:</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">1</span>ssh-keygen -p -f ~/.ssh/id_ed25519  <span style=color:#6272a4># replace `id_ed25519` with your</span>
+<span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">2</span>private key file
+</code></pre></div><p>The command above will let Bob add a passphrase (or change it if there
+is already an old passphrase) which will be required to decrypt the
+private file. So even if other users can access the file, they cannot
+use it without the passphrase.</p>
+<h2 id=forwarding-ssh-connection>Forwarding SSH Connection</h2>
+<p>If the shared machine is accessed via ssh, Bob can forward the
+connection from an authenticating agent, e.g., <code>ssh-agent</code>. It will use
+the key-pair stored in Bob’s local machine (as opposed to the shared
+remote machine) for authentication. So Bob will not have to generate a
+key-pair in the remote machine. Bob just needs to add <code>-A</code> flag to his
+ssh command.</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">1</span>ssh -A bob@remote-machine
+</code></pre></div><p>Be warned, though. The Linux manual (<code>man 1 ssh</code>) has this is to say:</p>
+<blockquote>
+<p>Agent forwarding should be enabled with caution. Users with the
+ability to bypass file permissions on the remote host (for the agent&rsquo;s
+UNIX-domain socket) can access the local agent through the forwarded
+connection. An attacker cannot obtain key material from the agent,
+however they can perform operations on the keys that enable them to
+authenticate using the identities loaded into the agent. A safer
+alternative may be to use a jump host (see -J).</p>
+</blockquote>
+<h2 id=testing-the-connection>Testing the Connection</h2>
+<p>Bob can test if he can authenticate properly by using the command below.</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">1</span>ssh -T git@github.com
+<span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">2</span><span style=color:#6272a4># Hi USERNAME! You&#39;ve successfully authenticated,</span>
+<span style="margin-right:.4em;padding:0 .4em;color:#7f7f7f">3</span><span style=color:#6272a4># but GitHub does not provide shell access.</span>
+</code></pre></div>
+</div>
+</article>
+<footer id=footer>
+<div class=footer-left>
+Copyright &copy; 2022 Enan's Blog
+</div>
+<div class=footer-right>
+<nav>
+<ul>
+<li><a href=https://3n4n.github.io/blog/>Home</a></li>
+<li><a href=https://3n4n.github.io/blog/essays>Essays</a></li>
+<li><a href=https://3n4n.github.io/blog/filmtalk>Film Talk</a></li>
+<li><a href=https://3n4n.github.io/blog/techtalk>Tech Talk</a></li>
+</ul>
+</nav>
+</div>
+</footer>
+</div>
+</body>
+<link rel=stylesheet href=https://3n4n.github.io/blog/lib/font-awesome/css/all.min.css>
+<script src=https://3n4n.github.io/blog/lib/jquery/jquery.min.js></script>
+<script src=https://3n4n.github.io/blog/js/main.js></script>
+</html>
