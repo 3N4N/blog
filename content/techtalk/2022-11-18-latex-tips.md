@@ -19,7 +19,7 @@ some verbatim text here
 
 Also be mindful of the whitespace at the beginning of your vebatim
 portion. Although LaTeX usually takes care of whitespaces properly,
-since it's a verbatim portion, LaTeX will render exactly you put it.
+since it's a verbatim portion, LaTeX will render exactly as you put it.
 
 
 ## Duplicate a Slide in Beamer
