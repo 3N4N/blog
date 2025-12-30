@@ -40,3 +40,12 @@ since it's a verbatim portion, LaTeX will render exactly as you put it.
 \againframe{firstframe}
 \end{document}
 ```
+
+## Latex on this website (Note to self)
+
+Wrap with `$$` signs or in `\[...\]` signs for latex blocks: 
+
+$$E=\left(\frac{c^{2}}{32\pi G}\right)\omega^{2}f^{2}$$
+
+And `\(...\)` for inline latex, like this:
+\(\hbar\omega \times \frac{\omega^3}{c^3}\)
